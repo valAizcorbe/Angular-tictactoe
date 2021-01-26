@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-square',
   template: `
     <p>
-      square works!
+      <button>{{ value }}</button>
     </p>
   `,
   styles: [
@@ -12,6 +12,5 @@ import { Component } from '@angular/core';
 })
 export class SquareComponent {
 
- 
-
+ @Input() value: 'X' | 'O';
 }
