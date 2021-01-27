@@ -17,7 +17,6 @@ import { BoardComponent } from './board/board.component';
     BrowserModule,
     RouterModule,
     
-    
   ],
   providers: [],
   bootstrap: [AppComponent]
